@@ -13,7 +13,7 @@ function Tree(props: any) {
   useEffect(() => {
     const loader = new GLTFLoader()
     loader.load(
-      "/part1.glb",
+      "part1.glb",
       (gltf) => {
         setModel(gltf.scene)
       },
